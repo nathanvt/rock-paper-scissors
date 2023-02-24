@@ -1,0 +1,31 @@
+.game-container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.selection-area {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.choice-box {
+    border: solid 1px #777;
+    background-color: #EEE;
+    border-radius: 3px;
+    position: relative;
+    padding: 3rem;
+    margin: 1rem;
+    line-height: 1em;
+    transition: box-shadow 0.3s ease-out;
+}
+.choice-box:hover {
+    cursor: pointer;
+    background-color: #F5F5F5;
+    transition: box-shadow 0.3s ease;
+}
+
+.hidden {
+    display: none;
+}
